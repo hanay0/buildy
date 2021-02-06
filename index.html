@@ -14,7 +14,7 @@
         <link rel="stylesheet" type="text/css" href="css/slick-theme.css"/>
         <link rel="stylesheet" href="css/style.css">
     </head>
-    <body>
+    <body class="font-regular">
         <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
@@ -29,22 +29,22 @@
                         </a>
                         <!-- navlinks -->
                         <ul class="d-flex">
-                            <li class="d-flex"><a href="#" class="text-white fs-18">Home</a></li>
-                            <li class="d-flex"><a href="#" class="text-white fs-18">Blog</a></li>
-                            <li class="d-flex"><a href="#" class="text-white fs-18">Client</a></li>
-                            <li class="d-flex"><a href="#" class="text-white fs-18">Service</a></li>
-                            <li class="d-flex"><a href="#" class="text-white fs-18">About us</a></li>
-                            <li class="d-flex"><a href="#" class="text-purple bg-white fs-18 pointer">Contact us</a></li>
+                            <li class="d-flex"><a href="#" class="text-white fs-18 font-medium">Home</a></li>
+                            <li class="d-flex"><a href="#" class="text-white fs-18 font-medium">Blog</a></li>
+                            <li class="d-flex"><a href="#" class="text-white fs-18 font-medium">Client</a></li>
+                            <li class="d-flex"><a href="#" class="text-white fs-18 font-medium">Service</a></li>
+                            <li class="d-flex"><a href="#" class="text-white fs-18 font-medium">About us</a></li>
+                            <li class="d-flex"><a href="#" class="text-purple bg-white fs-18 pointer transitioned radius font-medium">Contact us</a></li>
                         </ul>
                     </nav>
                     <!-- start header content -->
                     <div class="header-content d-flex">
                         <div class="content d-flex fd-col text-white">
                             <p class="fs-30">Your Dream is here</p>
-                            <h1 class="fs-48 text-capitalize">we make buildings</h1>
+                            <h1 class="fs-48 text-capitalize font-bold">we make buildings</h1>
                             <p class="fs-18">Lorum Ipsum site dolor, it coz happen anything lorum ipsum
                                 is a bigii challange there is.</p>
-                            <button class="fs-18 borderless text-purple bg-white pointer">Read more</button>
+                            <button class="fs-18 borderless text-purple bg-white pointer transitioned radius font-medium outline-false">Read more</button>
                         </div>
                         <div class="video centered position-relative">
                             <img src="images/temp/header-video.png" alt="video-image">
@@ -52,15 +52,15 @@
                         </div>
                     </div>
                     <!-- start form -->
-                    <div class="form-wrapper centered d-flex">
+                    <div class="first-form-wrapper centered">
                         <form class="d-flex">
-                            <select class="bg-white d-flex fs-16" name="property-type" aria-placeholder="property type">
+                            <select class="bg-white d-flex fs-16 radius font-medium outline-false" name="property-type" aria-placeholder="property type">
                                 <option value="">Property Type</option>
                             </select>
-                            <select class="bg-white d-flex fs-16" name="city">
+                            <select class="bg-white d-flex fs-16 radius font-medium outline-false" name="city">
                                 <option value="">Select City</option>
                             </select>
-                            <input class="borderless bg-white text-purple fs-16 pointer" type="submit" value="Search">
+                            <input class="borderless bg-white text-purple fs-16 pointer transitioned radius font-medium outline-false " type="submit" value="Search">
                         </form>
                     </div>
                 </div>
@@ -76,9 +76,9 @@
                             <div class="centered rounded bg-purple">
                                 <img src="images/icons/service-1.png" alt="service-1">
                             </div>
-                            <h1 class="fs-24">Modern Recident</h1>
+                            <h1 class="fs-24 font-semi">Modern Recident</h1>
                             <p>Lorem ipsum dolor sit amet,sed do a consectetur adipiscing elit, sed do o eiusmod tempor.</p>
-                            <span class="text-purple fs-18">Read more</span>
+                            <span class="text-purple fs-18 pointer transitioned radius">Read more</span>
                         </div>
     
                         <!-- service two -->
@@ -86,9 +86,9 @@
                             <div class="centered rounded bg-purple">
                                 <img src="images/icons/service-2.png" alt="service-2">
                             </div>
-                            <h1 class="fs-24">Development Services</h1>
+                            <h1 class="fs-24 font-semi">Development Services</h1>
                             <p>Lorem ipsum dolor sit amet,sed do a consectetur adipiscing elit, sed do o eiusmod tempor.</p>
-                            <span class="text-purple fs-18">Read more</span>
+                            <span class="text-purple fs-18 pointer transitioned">Read more</span>
                         </div>
     
                         <!-- service three -->
@@ -96,23 +96,395 @@
                             <div class="centered rounded bg-purple">
                                 <img src="images/icons/service-3.png" alt="service-3">
                             </div>
-                            <h1 class="fs-24">Market analysis</h1>
+                            <h1 class="fs-24 font-semi">Market analysis</h1>
                             <p class="fs-16">Lorem ipsum dolor sit amet,sed do a consectetur adipiscing elit, sed do o eiusmod tempor.</p>
-                            <span class="text-purple fs-18">Read more</span>
+                            <span class="text-purple fs-18 pointer transitioned">Read more</span>
                         </div>
                     </div>
                 </div>
             </section>
-
-
-
             <!-- end services section -->
 
+            <!-- start featured posts -->
+            <section class="featured-posts centered">
+                <div class="container">
+                    <div class="intro-wrapper centered">
+                        <!-- intro -->
+                        <div class="featured-posts-intro centered fd-col text-center">
+                            <h1 class="font-semi fs-30">Paid Featured Posts</h1>
+                            <p class="fs-18">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                        </div>
+                    </div>
 
-
+                        <!-- slides -->
+                        <div class="slides-wrapper d-flex fd-col position-relative">
+                            <!-- slider -->
+                            <div class="slides">
+                                <!-- slide one -->
+                                <div class="slide d-flex">
+                                    <!-- slide image -->
+                                    <div class="slide-image"><img src="images/temp/Realstate photo.png" alt="slider-photo"></div>
+                                    <div class="slide-content d-flex fd-col">
+                                        <p class="fs-30 font-medium">$149,999</p>
+                                        <p class="fs-30 font-semi">Summer Holiday Amazing Home For Family</p>
+                                        <!-- user location line -->
+                                        <div class="user-location centered">
+                                            <img src="images/icons/Location.png" alt="location-mark">
+                                            <p class="fs-16">Vesey st, New york, NY, USA</p>
+                                        </div>
+                                        <p class="fs-16">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua lorum ipsum. </p>
+                                        <!-- user avatar and info -->
+                                        <div class="user d-flex">
+                                            <img src="images/temp/user-avatar.png" alt="user-avatar" class="rounded">
+                                            <div class="user-info d-flex fd-col">
+                                                <p class="text-purple fs-24 font-medium">Vincent Abbott</p>
+                                                <p class="fs-14">Company Agent, CEO & Founder</p>
+                                            </div>
+                                        </div>
+                                        <button class="bg-purple text-white radius borderless font-medium fs-16 outline-false pointer transitioned">Contact us</button>
+                                    </div>
+                                </div>
+                                <!-- slide two -->
+                                <div class="slide d-flex">
+                                    <!-- slide image -->
+                                    <div class="slide-image"><img src="images/temp/Realstate photo.png" alt="slider-photo"></div>
+                                    <div class="slide-content d-flex fd-col">
+                                        <p class="fs-30 font-medium">$149,999</p>
+                                        <p class="fs-30 font-semi">Summer Holiday Amazing Home For Family</p>
+                                        <!-- user location line -->
+                                        <div class="user-location centered">
+                                            <img src="images/icons/Location.png" alt="location-mark">
+                                            <p class="fs-16">Vesey st, New york, NY, USA</p>
+                                        </div>
+                                        <p class="fs-16">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua lorum ipsum. </p>
+                                        <!-- user avatar and info -->
+                                        <div class="user d-flex">
+                                            <img src="images/temp/user-avatar.png" alt="user-avatar" class="rounded">
+                                            <div class="user-info d-flex fd-col">
+                                                <p class="text-purple fs-24 font-medium">Vincent Abbott</p>
+                                                <p class="fs-14">Company Agent, CEO & Founder</p>
+                                            </div>
+                                        </div>
+                                        <button class="bg-purple text-white radius borderless font-medium fs-16 outline-false pointer transitioned">Contact us</button>
+                                    </div>
+                                </div>
+                                <!-- slide three -->
+                                <div class="slide d-flex">
+                                    <!-- slide image -->
+                                    <div class="slide-image"><img src="images/temp/Realstate photo.png" alt="slider-photo"></div>
+                                    <div class="slide-content d-flex fd-col">
+                                        <p class="fs-30 font-medium">$149,999</p>
+                                        <p class="fs-30 font-semi">Summer Holiday Amazing Home For Family</p>
+                                        <!-- user location line -->
+                                        <div class="user-location centered">
+                                            <img src="images/icons/Location.png" alt="location-mark">
+                                            <p class="fs-16">Vesey st, New york, NY, USA</p>
+                                        </div>
+                                        <p class="fs-16">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua lorum ipsum. </p>
+                                        <!-- user avatar and info -->
+                                        <div class="user d-flex">
+                                            <img src="images/temp/user-avatar.png" alt="user-avatar" class="rounded">
+                                            <div class="user-info d-flex fd-col">
+                                                <p class="text-purple fs-24 font-medium">Vincent Abbott</p>
+                                                <p class="fs-14">Company Agent, CEO & Founder</p>
+                                            </div>
+                                        </div>
+                                        <button class="bg-purple text-white radius borderless font-medium fs-16 outline-false pointer transitioned">Contact us</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- slider arrows -->
+                            <!-- previous -->
+                        <div class="prev position-absolute rounded centered bg-purple pointer transitioned">
+                            <img src="images/icons/top-arrow.png" alt="">
+                        </div>
+                            <!-- next -->
+                        <div class="next position-absolute rounded centered bg-purple pointer transitioned">
+                            <img src="images/icons/bottom-arrow.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- end featured posts -->
+            <!-- start stats section -->
+            <section class="stats d-flex">
+                <div class="container">
+                    <!-- first-stat -->
+                    <div class="stats-wrapper centered">
+                        <div class="single-stat d-flex">
+                            <img src="images/icons/satisfied medal.png" alt="medal">
+                            <div class="stats-info d-flex fd-col">
+                                <p class="font-semi fs-30 text-purple">4,283</p>
+                                <p class="fs-18">Satisfeid Client</p>
+                            </div>
+                        </div>
+                        <!-- second stat -->
+                        <div class="single-stat d-flex">
+                            <img src="images/icons/Employee.png" alt="Employee">
+                            <div class="stats-info d-flex fd-col">
+                                <p class="font-semi fs-30 text-purple">83</p>
+                                <p class="fs-18">Employees</p>
+                            </div>
+                        </div>
+                        <!-- third stat -->
+                        <div class="single-stat d-flex">
+                            <img src="images/icons/hot-cup-of-coffee.png" alt="cup">
+                            <div class="stats-info d-flex fd-col">
+                                <p class="font-semi fs-30 text-purple">973</p>
+                                <p class="fs-18">Cups Of Coffee</p>
+                            </div>
+                        </div>
+                        <!-- fourth stat -->
+                        <div class="single-stat d-flex">
+                            <img src="images/icons/Property.png" alt="Property">
+                            <div class="stats-info d-flex fd-col">
+                                <p class="font-semi fs-30 text-purple">25,345</p>
+                                <p class="fs-18">Total Property</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- end stats section -->
+            <!-- start properties section -->
+            <section class="properties d-flex">
+                <div class="container">
+                    <div class="properties-wrapper centered fd-col">
+                        <!-- intro -->
+                        <div class="properties-intro d-flex fd-col text-center">
+                            <h1 class="font-semi fs-30">Recent Property</h1>
+                            <p class="fs-18"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        </div>
+                        <!-- properties images -->
+                        <div class="properties-images d-flex">
+                            <!-- property one -->
+                            <div class="property position-relative">
+                                <img src="images/temp/property-one.png" alt="property-one">
+                                <div class="overlay transitioned position-absolute"></div>
+                                <div class="content d-flex fd-col transitioned">
+                                    <p class="text-white fs-24">( $3,999/sq ft )</p>
+                                    <p class="text-white fs-30 font-medium">Developing a strategy</p>
+                                  </div>
+                                <div class="content-details centered fd-col transitioned">
+                                    <div class="icons-wrapper centered">
+                                        <div class="icon bg-purple rounded centered"><img src="images/icons/Search white.png" alt="search"></div>
+                                        <div class="icon bg-purple rounded centered"><img src="images/icons/strategy.png" alt="search"></div>
+                                    </div>
+                                    <p class="text-white fs-24">( $3,999/sq ft )</p>
+                                    <p class="text-white fs-30 font-medium">Developing a strategy</p>
+                                  </div>
+                            </div>
+                            <!-- property two -->
+                            <div class="property position-relative">
+                                <img src="images/temp/property-two.png" alt="property-three">
+                                <div class="overlay transitioned position-absolute"></div>
+                                <div class="content d-flex fd-col transitioned">
+                                    <p class="text-white fs-24">( $3,999/sq ft )</p>
+                                    <p class="text-white fs-30 font-medium">Developing a strategy</p>
+                                  </div>
+                                <div class="content-details centered fd-col transitioned">
+                                    <div class="icons-wrapper centered">
+                                        <div class="icon bg-purple rounded centered"><img src="images/icons/Search white.png" alt="search"></div>
+                                        <div class="icon bg-purple rounded centered"><img src="images/icons/strategy.png" alt="search"></div>
+                                    </div>
+                                    <p class="text-white fs-24">( $3,999/sq ft )</p>
+                                    <p class="text-white fs-30 font-medium">Developing a strategy</p>
+                                  </div>
+                            </div>
+                            <!-- property three -->
+                            <div class="property position-relative">
+                                <img src="images/temp/property-three.png" alt="">
+                                <div class="overlay transitioned position-absolute"></div>
+                                <div class="content d-flex fd-col transitioned">
+                                    <p class="text-white fs-24">( $3,999/sq ft )</p>
+                                    <p class="text-white fs-30 font-medium">Developing a strategy</p>
+                                  </div>
+                                <div class="content-details centered fd-col transitioned">
+                                    <div class="icons-wrapper centered">
+                                        <div class="icon bg-purple rounded centered"><img src="images/icons/Search white.png" alt="search"></div>
+                                        <div class="icon bg-purple rounded centered"><img src="images/icons/strategy.png" alt="search"></div>
+                                    </div>
+                                    <p class="text-white fs-24">( $3,999/sq ft )</p>
+                                    <p class="text-white fs-30 font-medium">Developing a strategy</p>
+                                  </div>
+                            </div>
+                            <!-- property four -->
+                            <div class="property position-relative">
+                                <img src="images/temp/property-four.png" alt="property-four">
+                                <div class="overlay transitioned position-absolute"></div>
+                                <div class="content d-flex fd-col transitioned">
+                                    <p class="text-white fs-24">( $3,999/sq ft )</p>
+                                    <p class="text-white fs-30 font-medium">Developing a strategy</p>
+                                  </div>
+                                <div class="content-details centered fd-col transitioned">
+                                    <div class="icons-wrapper centered">
+                                        <div class="icon bg-purple rounded centered"><img src="images/icons/Search white.png" alt="search"></div>
+                                        <div class="icon bg-purple rounded centered"><img src="images/icons/strategy.png" alt="search"></div>
+                                    </div>
+                                    <p class="text-white fs-24">( $3,999/sq ft )</p>
+                                    <p class="text-white fs-30 font-medium">Developing a strategy</p>
+                                  </div>
+                            </div>
+                        </div>
+                            <button class="bg-purple text-white borderless radius font-medium fs-18 transitioned pointer">View All Projects</button>
+                    </div>
+                    <!-- start tesimonials slider -->
+                    <!-- intro -->
+                    <div class="testimonials-wrapper fd-col">
+                        <div class="intro-wrapper centered fd-col">
+                            <div class="testimonials-intro centered fd-col text-center">
+                                <h1 class="font-semi fs-30">What Our Clients Says</h1>
+                                <p class="fs-18"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            </div>
+                        </div>
+                        <!-- testimonials slider -->
+                        <div class="testimonial-wrapper">
+                            <!-- slide one -->
+                            <div class="testimonial d-flex">
+                                <div class="user-opinion position-relative fs-18">
+                                    <img src="images/icons/quotation-marks.png" class="position-absolute" alt="quotation-marks">
+                                    Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+                                </div>
+                                <div class="user centered fd-col text-center">
+                                    <div class="user-avatar centered">
+                                        <img src="images/temp/adult-chair-computer-1251850.png" alt="cutomer" class="rounded">
+                                    </div>
+                                    <div class="text-wrapper centered fd-col">
+                                        <p class="name fs-20 font-semi text-purple">Thomas Tuffel</p>
+                                        <p class="title fs-16">Loyal Customer</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--slide two  -->
+                            <div class="testimonial d-flex">
+                                <div class="user-opinion position-relative fs-18">
+                                    <img src="images/icons/quotation-marks.png" class="position-absolute" alt="quotation-marks">
+                                    Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+                                </div>
+                                <div class="user centered fd-col text-center">
+                                    <div class="user-avatar centered">
+                                        <img src="images/temp/jason-shen-headshot.jpg" alt="cutomer" class="rounded">
+                                    </div>
+                                    <div class="text-wrapper centered fd-col">
+                                        <p class="name fs-20 font-semi text-purple">Jeff Bridges</p>
+                                        <p class="title fs-16">Loyal Customer</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- slide three -->
+                            <div class="testimonial d-flex">
+                                <div class="user-opinion position-relative fs-18">
+                                    <img src="images/icons/quotation-marks.png" class="position-absolute" alt="quotation-marks">
+                                    Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+                                </div>
+                                <div class="user centered fd-col text-center">
+                                    <div class="user-avatar centered">
+                                        <img src="images/temp/female-customer.jpg" alt="cutomer" class="rounded">
+                                    </div>
+                                    <div class="text-wrapper centered fd-col">
+                                        <p class="name fs-20 font-semi text-purple">Eve Mark</p>
+                                        <p class="title fs-16">Loyal Customer</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- arrows for the slider -->
+                        <!-- previous -->
+                        <div class="arrows-wrapper centered">
+                            <div class="arrow-left rounded centered bg-purple pointer transitioned">
+                                <img src="images/icons/arrow-point-to-right.png" alt="">
+                            </div>
+                                <!-- next -->
+                            <div class="arrow-right rounded centered bg-purple pointer transitioned">
+                                <img src="images/icons/arrow-point-to-right copy 2.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                 </div>
+            </section>
+            <!-- end testimonials slider   -->
+            <!-- end properties section  -->
         
+            <!-- start subfooter section -->
+            <section class="sub-footer bg-purple centered">
+                <div class="container">
+                    <!-- subscribe -->
+                    <div class="form-wrapper d-flex radius">
+                        <form class="d-flex">
+                            <input class="font-medium fs-30 borderless radius outline-false" type="email" name="email" id="email" placeholder="Enter Your Email Address" required>
+                            <input class="font-medium fs-30 text-purple transitioned borderless radius pointer outline-false" type="submit" value="Subscribe">
+                        </form>
+                    </div>
+                    <!-- posts and information -->
+                    <div class="postAndinfo-wrapper d-flex">
+                        <!-- first-post -->
+                        <div class="posts d-flex fd-col">
+                            <h1 class="text-white font-medium fs-30">Popular Posts</h1>
+                            <div class="post d-flex">
+                                <img src="images/temp/180Water_LivingRoom.0.0.png" alt="post-one">
+                                <div class="post-content d-flex fd-col">
+                                    <p class="text-white fs-24">$135,595</p>
+                                    <p class="text-white font-semi fs-24">Amazing Luxary Apartments For Family</p>
+                                </div>
+                            </div>
+                            <!-- second post -->
+                            <div class="post d-flex">
+                                <img src="images/temp/ISizqjuc2lg85n1000000000.png" alt="post-one">
+                                <div class="post-content d-flex fd-col">
+                                    <p class="text-white fs-24">$135,595</p>
+                                    <p class="text-white font-semi fs-24">Amazing Luxary Apartments For Family</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- info -->
+                        <div class="infos d-flex fd-col">
+                            <div class="first-info d-flex fd-col">
+                                <h1 class="text-white font-medium fs-30">More Information</h1>
+                                    <a href="#" class="font-medium fs-18 text-white transitioned">Help Center</a>
+                                    <a href="#" class="font-medium fs-18 text-white transitioned">Terms Of Use</a>
+                                    <a href="#" class="font-medium fs-18 text-white transitioned">Careers</a>
+                            </div>
+                            <!-- second info -->
+                            <div class="second-info d-flex fd-col">
+                                    <a href="#" class="font-medium fs-18 text-white transitioned">About</a>
+                                    <a href="#" class="font-medium fs-18 text-white transitioned">About Envanto</a>
+                                    <a href="#" class="font-medium fs-18 text-white transitioned">Envanto marketing blog</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- footer -->
+            <footer class="d-flex centered bg-purple">
+                <div class="container">
+                    <div class="footer-content d-flex">
+                        <div class="copyrights d-flex text-white fs-20">&copy;2021. All Rights Reserved. Designed By Buildy</div>
+                        <div class="social-icons d-flex">
+                            <img src="images/icons/Facebook_Rounded_icon-icons.com_61578.png" alt="facebook" class="pointer">
+                            <img src="images/icons/Twitter_Rounded_icon-icons.com_61577.png" alt="twitter" class="pointer">
+                            <img src="images/icons/Google_Roundedaa_icon-icons.com_61572.png" alt="google" class="pointer">
+                            <img src="images/icons/Instagram_Rounded_icson-icons.com_61576.png" alt="instagram" class="pointer">
+                            <img src="images/icons/Dribbble_Rounded_icon-icosns.com_61565.png" alt="dribble" class="pointer">
+                            <img src="images/icons/Pinterest_Rounded_icossn-icons.com_61571.png" alt="pinterest" class="pointer">
+                            <img src="images/icons/LinkedIn_Rounded_icon-icossns.com_61573.png" alt="linkedin" class="pointer">
+                            <img src="images/icons/Youtube_Rounded_icon-icons.com_61575.png" alt="youtube" class="pointer">
+                            <img src="images/icons/Behance_Roundead_icon-icons.com_61566.png" alt="behance" class="pointer">
+                        </div>
+                    </div>
+                </div>
+            </footer>
+
+
+
+
+
         <script src="js/jquery.js"></script>
         <script src="js/slick.min.js"></script>
         <script src="js/main.js"></script>
+        <script>
+
+            
+                            
+        </script>
     </body>
 </html>
